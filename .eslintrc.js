@@ -37,6 +37,8 @@ module.exports = {
   // and then enable some React specific ones.
   rules: {
     'accessor-pairs': OFF,
+    'babel/flow-object-type': OFF,
+    'flowtype/object-type-delimiter': ERROR,
     'brace-style': [ERROR, '1tbs'],
     'consistent-return': OFF,
     'dot-location': [ERROR, 'property'],
